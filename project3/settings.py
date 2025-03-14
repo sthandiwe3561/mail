@@ -86,6 +86,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'project3.wsgi.application'
 
+# CORS settings (Allow frontend to access backend)
+CORS_ALLOWED_ORIGINS = [
+    "https://your-frontend.onrender.com"
+]
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
