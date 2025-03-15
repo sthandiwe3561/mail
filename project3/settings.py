@@ -26,7 +26,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "default-secret-key")
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
 # Read ALLOWED_HOSTS from environment, default to localhost
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "localhost,commerce.onrender.com").split(",")
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "localhost,mail.onrender.com").split(",")
 
 
 
